@@ -1,1 +1,5 @@
+# Hypothesis Testing
+Code:
+from scipy.stats import binom
+binom.pmf(n=10, k=7, p=0.5)
 
