@@ -1,0 +1,15 @@
+# -- LA4(Loss minimization in classification)
+# dot product
+
+import numpy as np
+x = [4,5]
+y = [3,6]
+
+np.dot(x,y) #lib
+np.linlg.norm(x) #lib (linlg is a module having functions related to linear algebra)
+
+dot_p = 0
+for i,j in zip(x,y):
+dot_p+=(i*j)
+print(dot_p)
+
