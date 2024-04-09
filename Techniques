@@ -1,0 +1,5 @@
+#Python
+
+'''Data Exploration'''
+Unnesting of data values is necessary before analysis:
+df.describe(include="all").T
